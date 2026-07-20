@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: white;
+}
+
+nav{
+    background-color: rgb(54, 54, 54);
+    display: flex;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color:black;
+    background-color: white;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    text-decoration: underline;
+}
