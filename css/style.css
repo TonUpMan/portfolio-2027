@@ -5,11 +5,15 @@ body{
 
 nav{
     background-color: rgb(54, 54, 54);
-    display: flex;
 }
 
-nav li{
-    display: inline;
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    flex-grow: 1;
 }
 
 nav a{
