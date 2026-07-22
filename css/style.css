@@ -1,36 +1,42 @@
 body{
     text-align: center;
-    background-color: white;
+    background-color: #fcfcf9;
+}
+
+header{
+    background-color: #b7e0e0;
 }
 
 nav{
-    background-color: rgb(54, 54, 54);
+    background-color: #163442;
 }
 
 nav ul{
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li{
-    flex-grow: 1;
+    padding: 14px 16px;
 }
 
 nav a{
     color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
 }
 
 nav a:hover{
     color:black;
-    background-color: white;
-}
-
-h2{
-    text-decoration: underline;
 }
 
 footer{
-    background-color: rgb(54, 54, 54);
+    background-color: #163442;
     color: white;
     text-decoration: underline;
 }
