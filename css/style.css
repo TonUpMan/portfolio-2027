@@ -1,10 +1,11 @@
 body{
-    text-align: center;
     background-color: #fcfcf9;
 }
 
 header{
+    text-align: center;
     background-color: #b7e0e0;
+    padding-top: 15px;
 }
 
 nav{
@@ -13,18 +14,24 @@ nav{
 
 nav ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
 
 nav ul li{
-    padding: 14px 16px;
+    padding: 15px 15px;
 }
 
 nav a{
     color: white;
     text-decoration: none;
+}
+
+.title_li{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 li{
@@ -38,5 +45,6 @@ nav a:hover{
 footer{
     background-color: #163442;
     color: white;
-    text-decoration: underline;
+    text-align: center;
+    padding: 15px;
 }
